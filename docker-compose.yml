@@ -2,6 +2,7 @@ version: "3.8"
 services:
   express-app:
     container_name: "express-app-container"
+    image: ikhunaizi19/my-express-app
     build: .
     ports:
       - "3000:3000"
