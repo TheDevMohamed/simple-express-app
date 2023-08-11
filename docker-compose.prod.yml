@@ -6,7 +6,7 @@ services:
     environment:
       - NODE_ENV=production
   watchtower:
-    image: container/watchtower
+    image: containrrr/watchtower
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
 
