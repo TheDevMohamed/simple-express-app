@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  express-app:
+    build:
+      target: production
+    environment:
+      - NODE_ENV=production
+
+
