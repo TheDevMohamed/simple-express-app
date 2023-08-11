@@ -11,9 +11,9 @@ var app = express();
 // getting-started.js
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://root:example@mongo:27017').then(() => {
-  console.log('connected to mongodb')
-});
+// mongoose.connect('mongodb://root:example@mongo:27017').then(() => {
+//   console.log('connected to mongodb')
+// });
 
 
 // view engine setup
