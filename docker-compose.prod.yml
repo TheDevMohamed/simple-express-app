@@ -13,10 +13,10 @@ services:
       restart_policy:
         condition: on-failure
         delay: 5s
-  watchtower:
-    image: containrrr/watchtower
-    volumes:
-      - /var/run/docker.sock:/var/run/docker.sock
-    command: --interval 600
+#  watchtower:
+#    image: containrrr/watchtower
+#    volumes:
+#      - /var/run/docker.sock:/var/run/docker.sock
+#    command: --interval 600
 
 
