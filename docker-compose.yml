@@ -10,7 +10,7 @@ services:
     volumes:
       - ./nginx/default.conf:/etc/nginx/nginx.conf
     ports:
-      - 80:80
+      - "80:80"
     depends_on:
       - express-app
 
