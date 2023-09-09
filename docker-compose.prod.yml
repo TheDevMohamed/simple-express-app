@@ -12,7 +12,7 @@ services:
         delay: 10s
       restart_policy:
         condition: on-failure
-        delay: 5s
+        delay: 6s
 #  watchtower:
 #    image: containrrr/watchtower
 #    volumes:
