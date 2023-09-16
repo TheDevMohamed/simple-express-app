@@ -5,11 +5,16 @@ This repository demonstrates how to use Docker Compose to run a simple Node.js E
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/inessadl/readme/issues)
 
 
+## Requirements
 
+### To use this repository, you will need:
+
+* Docker
+* Docker Compose
 
 ## Quick start
 
-_### Getting started_
+### **_Getting started_**
 
 1- Clone the cd to the app 
 `git clone https://github.com/TheDevMohamed/simple-express-app.git && cd simple-express-app`
