@@ -1,3 +1,3 @@
-![image info](./assets/images/readme-header.png) {width: 200px; border-radius: 10px;}
-
-<img src="./assets/images/readme-header.png" alt="alt text" title="title" style="width: 200px; margin: 10px;">
+<div style=" display: flex; align-items: center">
+ <img src="./assets/images/readme-header.png" align="center" title="title" style="width: 500px; border-radius: 10px;">
+</div>
