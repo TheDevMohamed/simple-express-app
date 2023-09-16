@@ -1,6 +1,7 @@
 version: "3.8"
 services:
   express-app:
+    image: ikhunaizi19/my-express-app:dev
     build:
       target: development
     depends_on:
